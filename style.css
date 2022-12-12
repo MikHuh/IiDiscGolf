@@ -1,0 +1,159 @@
+/* 
+Backround photo
+https://unsplash.com/@edrinspahiu
+
+*/
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0px 20px;
+    background-color: #121212;
+}
+
+p {
+    padding: 20px;
+    color: #ffffff;
+}
+h1{
+    padding: 20px;
+    color: #ffffff;
+}
+h2{
+    padding: 20px;
+    color: #ffffff;
+}
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    flex: auto;
+    font-size: 1.5vw;
+}
+
+.navigationbar {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #B00020;
+    color: #fff;
+}
+
+.nav-links a {
+    color: #fff;
+}
+
+.navigation {
+    display: flex;
+    flex: 1;
+    gap: 1em;
+    font-size: 32px
+}
+
+.navigation li:hover {
+    background-color: #cf6679;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.navigation li {
+    padding: 5px 14px;
+}
+
+/* Checkbox hack */
+#checkbox_toggle {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+
+@media (max-width: 940px) {
+
+    .navigation {
+        display: none;
+        position: absolute;
+        background-color: #B00020;
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 16px 0;
+    }
+    li{
+        font-size: 25px;
+    }
+    .navigation li:hover {
+        display: inline-block;
+        background-color: #cf6679;
+        transition: 0.3s ease;
+    }
+
+    .navigation li+li {
+        margin-top: 12px;
+    }
+
+    #checkbox_toggle:checked~.navigation {
+        display: block;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
+
+@media (min-width: 1300px) {
+
+    body {
+        margin-left: 160px;
+        margin-right: 160px;
+    }
+    li{
+        font-size: 1.2vw;
+    }
+    /* SIDEBAR */
+    .leftsidebar {
+        background-image: url('chains.jpeg');
+        opacity: 0.1;
+        height: 100%;
+        width: 160px;
+        position: fixed;
+        z-index: 1;
+        top: 0px;
+        left: 0px;
+        /* overflow-x: hidden;*/
+        padding-top: 20px;
+    }
+
+    .rightsidebar {
+        background-image: url('chains.jpeg');
+        opacity: 0.1;
+        height: 100%;
+        width: 160px;
+        position: fixed;
+        z-index: 1;
+        top: 0px;
+        right: 0px;
+        /* overflow-x: hidden;*/
+        padding-top: 20px;
+        border-left: solid;
+    }
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #B00020;
+    color: white;
+  }
