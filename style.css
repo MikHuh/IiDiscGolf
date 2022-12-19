@@ -14,6 +14,7 @@ body {
     margin-left: 0;
     margin-right: 0;
     padding-left: 0px 20px;
+    padding-top: 100px;
     background-color: #121212;
 }
 
@@ -47,6 +48,10 @@ li {
     padding: 20px;
     background-color: #B00020;
     color: #fff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
 }
 
 .nav-links a {
@@ -58,6 +63,7 @@ li {
     flex: 1;
     gap: 1em;
     font-size: 32px
+    
 }
 
 .navigation li:hover {
@@ -82,7 +88,10 @@ li {
 }
 
 @media (max-width: 940px) {
-
+    .navigationbar{
+        left: 0;
+        right: 0;
+    }
     .navigation {
         display: none;
         position: absolute;
@@ -116,6 +125,10 @@ li {
 
 @media (min-width: 1300px) {
 
+    .navigationbar{
+        left: 160px;
+        right: 160px;
+    }
     body {
         margin-left: 160px;
         margin-right: 160px;
@@ -157,3 +170,24 @@ footer {
     background-color: #B00020;
     color: white;
   }
+.profilepictures{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    padding-top: 50px
+}
+.picturecard{
+    font-size: 50px;
+    align-items: center;
+}
+.facepics{
+    height:300px;
+    width: 300px;
+    border-radius: 3%;
+}
+.hallitusheading{
+    font-size: 100px;
+    text-align: center;
+    padding-top: 50px;   
+}
