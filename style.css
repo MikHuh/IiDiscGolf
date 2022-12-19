@@ -170,21 +170,38 @@ footer {
     background-color: #B00020;
     color: white;
   }
+.title{
+    padding-left: 0;
+    text-align: center;
+}
+.name{
+    padding-left: 0;
+    text-align: center;
+}
 .profilepictures{
     display: flex;
     justify-content: center;
+    row-gap: 100px;
+    gap: 20px;
     flex-wrap: wrap;
     padding-left: 0px;
     padding-top: 50px
 }
 .picturecard{
+    width: 500px;
     font-size: 50px;
+    justify-content: center;
     align-items: center;
+    background-color: #2b2728;
+    border-radius: 10%;
+    border: 1px solid #2b2728;
+    
 }
 .facepics{
+    display: block;
+    margin: auto;
     height:300px;
     width: 300px;
-    border-radius: 3%;
 }
 .hallitusheading{
     font-size: 100px;
