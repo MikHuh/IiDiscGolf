@@ -1,0 +1,49 @@
+
+.name{
+    padding-left: 20px;
+    text-align: center;
+    font-size: 35px;
+}
+.profilepictures{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 50px;
+    
+}
+.picturecard{
+    flex: 3;
+    display: flex;
+    max-height: 500px;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+    border-style: double;
+    border-color: #fff;
+    border-radius: 2%;
+    max-width: 340px;
+    flex-direction: row;
+}
+.picturecardpicture{
+  display: flex;
+}
+.picturecardtext{
+    display: flex;
+}
+.picturecard p{
+    font-size: 20px;
+}
+.facepics{
+   
+    margin: auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
+}
+.hallitusheading{
+    font-family: "luminari, fantasy";
+    font-size: 100px;
+    text-align: center;
+    padding-top: 50px;   
+}
