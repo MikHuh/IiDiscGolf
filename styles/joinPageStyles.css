@@ -1,0 +1,21 @@
+.joinpage{
+    display: flex
+}
+.joinpageimg{
+    flex: 1;
+    justify-content: right;
+    align-items: right;
+}
+.joinpage_img{
+    padding-top: 10px;
+    width: 100%;
+    height: 95%;
+}
+.join_text{
+    flex: 2;
+    padding-bottom: 30px;
+}
+.join_text a{
+    text-decoration: underline;
+     font-size: 20px;
+}
