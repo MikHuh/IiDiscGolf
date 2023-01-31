@@ -17,5 +17,11 @@
 }
 .join_text a{
     text-decoration: underline;
-     font-size: 20px;
+     font-size: 15px;
+}
+/* don't show all pictures to smaller screens*/
+@media (max-width: 768px) {
+    .joinpage_img{
+        display: none;
+    }
 }
