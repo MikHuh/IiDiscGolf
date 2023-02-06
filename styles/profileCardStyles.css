@@ -45,6 +45,11 @@
     text-align: center;
     padding-top: 50px;   
 }
+.hallitusheading p1{
+    padding: 20px;
+    font-size: 20px;
+    color: #fff;
+}
 .Pj{
     display: flex;
     justify-content: center;
