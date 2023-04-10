@@ -25,3 +25,9 @@
         display: none;
     }
 }
+.join_text a:hover{
+    color: purple;
+}
+.join_text a:visited{
+    color:  #0000EE;
+}

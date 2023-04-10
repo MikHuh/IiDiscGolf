@@ -42,3 +42,41 @@
     padding: 5px 14px;
     border-radius: 5px;
 }
+h4{
+    font-family: "Times New Roman", "times, serif"; 
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+.partners{
+    display: block;
+    padding: 20px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: #B00020;
+    border-width: 10px;
+    
+}
+.partner_photo {
+    padding: 20px;
+    margin: auto;
+    max-height: 300px;
+    max-width: 300px;
+}
+.partner_photos{
+    padding-top: 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.partner_links{
+    padding-top: 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.partner_links a:hover{
+   color: red;
+}
