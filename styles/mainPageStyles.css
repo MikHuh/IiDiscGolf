@@ -70,7 +70,6 @@ h4{
     flex-direction: row;
     flex-wrap: wrap;
 }
-
 .partner_links{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -90,7 +89,6 @@ h4{
     color: #3366CC;
     text-decoration: underline;
 }
-
 .partner_links a:hover{
    color: red;
 }
