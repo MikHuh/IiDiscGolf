@@ -4,11 +4,12 @@
     flex-wrap: wrap;
 }
 .productInfo{
-    flex: 2;
+    flex: 1;
     flex-direction: row;
     border-top-style: solid;
     border-color: #B00020;
     border-width: 10px;
+    min-width: 398px;
 }
 .product_photo_cont{
     flex: 1;
