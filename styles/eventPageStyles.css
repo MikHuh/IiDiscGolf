@@ -1,0 +1,17 @@
+.eventlogos {
+    max-width: 500px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.eventlogodiv {
+    padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
