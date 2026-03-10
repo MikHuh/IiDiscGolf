@@ -40,7 +40,6 @@
     border-radius: 10%;
 }
 .hallitusheading{
-    font-family: "luminari, fantasy";
     font-size: 50px;
     text-align: center;
     padding-top: 50px;   
@@ -53,4 +52,7 @@
 .Pj{
     display: flex;
     justify-content: center;
+}
+.hallituslist{
+	color: #fff;
 }

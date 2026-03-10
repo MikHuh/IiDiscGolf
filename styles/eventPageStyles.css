@@ -15,3 +15,11 @@
     flex-wrap: wrap;
     flex-direction: row;
 }
+@media (max-width: 600px) {
+  .eventlogos {
+    width: 100%; /* Make the image take up the full width on small screens */
+    height: auto; /* Allow the height to adjust based on the width */
+    display: block; /* Ensure the images are displayed as blocks to take up full width */
+  }
+}
+
